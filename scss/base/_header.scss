@@ -1,0 +1,29 @@
+@import "../componentes/variables";
+@import "../componentes/listas";
+
+.logo{
+    color:white;
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    ul{
+        li{
+            a{
+                margin-left: 60px;
+                font-size: 30px;
+                text-decoration: none;
+                color: white;
+                font-family: 'Roboto Condensed', sans-serif;
+                &:hover{
+                    border-bottom: 3px solid orangered;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "../componentes/variables";
+@import "../componentes/extend";
+@import "../componentes/listas";
+
+footer{
+    background-color:nth($colores, 1);
+    display: inline;
+    .logo-mia-nona{
+        width: $width-logo;
+    }
+    .footer-icons{
+        @extend %flex;
+        li{
+            padding-left:30px;
+            margin-top: 70px;
+        }
+        img{
+            width: $width-icons-footer;
+        }
+    }
+}

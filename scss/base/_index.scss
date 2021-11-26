@@ -1,0 +1,47 @@
+.encabezado-dos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 455px;
+    
+    h2{
+        font-size: 100px;
+        font-family: 'Cormorant Garamond', serif;
+        
+    }
+    p{
+        font-size: 100px;
+        font-family: 'Bebas Neue', cursive;
+        position: relative;
+        top: 50px; left: -400px;
+    }
+}
+
+section{
+    .grid-container{
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 450px);
+        grid-template-rows: repeat(3, 450px);
+        overflow: hidden;
+        div{
+            overflow: hidden;
+        }
+        .grid-item{
+            position: relative;
+            .grid-img{
+                height: 100%;  
+            }
+            .grid-title{
+                position: absolute;
+                top: 50%;
+                left: 20%;
+                color: black; 
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 50px;
+            }
+        }
+         
+    }
+}
