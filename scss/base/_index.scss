@@ -1,3 +1,20 @@
+.encabezado-uno{
+    display: flex;
+    justify-content: center;
+    h2{
+        font-size: 130px;
+        color:white;
+        position:absolute;
+        left: 40%; top: 300px;
+    }
+    p{
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        left: 30%; top: 450px;
+    }
+}
+
 .encabezado-dos{
     display: flex;
     justify-content: center;
@@ -7,13 +24,14 @@
     h2{
         font-size: 100px;
         font-family: 'Cormorant Garamond', serif;
-        
+        color: rgba(196, 52, 0, 0.664);
     }
     p{
         font-size: 100px;
         font-family: 'Bebas Neue', cursive;
         position: relative;
         top: 50px; left: -400px;
+        color: #7c7477;
     }
 }
 
@@ -22,26 +40,51 @@ section{
         display: flex;
         justify-content: center;
         display: grid;
-        grid-template-columns: repeat(2, 450px);
-        grid-template-rows: repeat(3, 450px);
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(2, 750px);
         overflow: hidden;
+
         div{
             overflow: hidden;
         }
         .grid-item{
             position: relative;
+            background-color: #7c747788;
             .grid-img{
-                height: 100%;  
+                height: 100%; 
+                width: 100%;
             }
             .grid-title{
                 position: absolute;
-                top: 50%;
-                left: 20%;
-                color: black; 
-                font-family: 'Cormorant Garamond', serif;
-                font-size: 50px;
+                top: 50px;
+                left: 10px;
+                color:white; 
+                font-family: 'Bebas Neue', cursive;
+                font-size: 40px;
+                
             }
         }
          
+    }
+}
+
+.seccion-tres{
+    background-color: rgb(114, 101, 96);
+    iframe{
+        margin-top: 10px;
+    }
+    .p-1{
+        font-size: 60px;
+        font-family: 'Cormorant Garamond', serif;
+        color: rgb(253, 112, 61);
+        position: relative;
+        top: -400px; left: 65%;
+    }
+    .p-2{
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+        position: relative;
+        top: -477px; left: 900px;
+        color: white;
     }
 }

@@ -18,20 +18,23 @@
     <!-- Menu -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top header">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><p class="logo"> Mia Nonna </p></a>
+          <p class="logo"> Mia Nonna </p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse menu" id="navbarNav" >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="active" href="src/paginas/pizza.html"> PIZZA</a>
+                <a class="active" href="index.html"> HOME</a>
               </li>
               <li class="nav-item">
-                <a href="src/paginas/hamburguesa.html"> HAMBURGUESAS </a>
+                <a href="src/paginas/hamburguesa.html"> ESPECIALIDADES </a>
               </li>
               <li class="nav-item">
-                <a href="src/paginas/empanada.html"> EMPANADAS </a>
+                <a href="src/paginas/empanada.html"> CONTACTO </a>
+              </li>
+              <li class="nav-item">
+                <a href="#sobre-nosotros"> SOBRE NOSOTROS </a>
               </li>
             </ul>
           </div>
@@ -49,12 +52,12 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="src/multimedia/imagenes/carrusel-pizza.jpg" class="d-block w-100" alt="fondo comidas caseras">
+              <img src="src/multimedia/imagenes/pizza-carrusel-.jpg" class="d-block w-100" alt="fondo comidas caseras">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-               <img src="src/multimedia/imagenes/carrusel-burger.jpg" class="d-block w-100" alt="fondo comidas caseras">
+               <img src="src/multimedia/imagenes/burger-carrusel.jpg" class="d-block w-100" alt="fondo comidas caseras">
                <div class="carousel-caption d-none d-md-block">
                </div>
             </div>
@@ -71,39 +74,48 @@
       <!-- Fin carrusel -->
     </section>
     <!-- Fin de seccion uno -->
+    <!-- Encabezado uno -->
+    <div class="encabezado-uno">
+      <h2> ¡HOLA! </h2>
+      <p> esperamos que disfrutes de la experiencia </p>
+    </div>
+    <!-- Fin de encabezado uno -->
     <!-- Encabezado dos -->
     <div class="encabezado-dos">
-      <h2> Disfruta </h2>
-      <p> Nuestras delicias </p>
+      <h2 id="sobre-nosotros"> Te contamos </h2>
+      <p> Sobre Nosotros </p>
     </div>
     <!-- Fin de encabezado dos -->
     <!-- Seccion dos-->
     <section>
       <div class="grid-container">
         <div class="grid-item"> 
-          <img class="grid-img" src="src/multimedia/imagenes/carrusel-pizza.jpg" alt="">
-          <p class="grid-title"> PIZZAS </p>
+          <img class="grid-img" src="src/multimedia/imagenes/fondo-grid-1.jpg" alt="">
+          <p class="grid-title"> Somos una rotiseria donde podes encontrar todo tipo de comidas rapidas, pero con el toque perfecto de sabor a las comidas de la nona </p>
         </div>
         <div>
-          <a href=""><img src="src/multimedia/imagenes/pizza-1-450px (1).jpg" alt="pizza"></a>
+          <img class="grid-img" src="src/multimedia/imagenes/burger-carrusel.jpg" alt="pizza" height="750px">
         </div>
         <div>
-          <a href=""><img src="src/multimedia/imagenes/hamburguesa-quinoa-calabaza.jpg" alt="hamburguesa"></a>
+          <img class="grid-img" src="src/multimedia/imagenes/pizza-carrusel-.jpg" alt="" height="750px">
         </div>
         <div class="grid-item">
-          <img class="grid-img" src="src/multimedia/imagenes/carrusel-pizza.jpg" alt="">
           <p class="grid-title">HAMBURGUESAS</p>
-        </div>
-        <div class="grid-item">
-          <img class="grid-img" src="src/multimedia/imagenes/carrusel-pizza.jpg" alt="">
-          <p class="grid-title">EMPANADAS</p>
-        </div>
-        <div>
-          <a href=""><img src="src/multimedia/imagenes/empanadas-veggies-picantes-450px.jpg" alt="empanada"></a>
         </div>
       </div>
     </section>
     <!-- Fin seccion dos-->
+    <!-- Seccion tres-->
+    <section class="seccion-tres">
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.37336572272676!2d-64.23486720586295!3d-31.469545820923333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3c71c5b33d5%3A0x9d8724e5bb688c13!2sRoticeria%20M%C3%ADa%20Nonna!5e0!3m2!1ses!2sar!4v1637991214329!5m2!1ses!2sar" width="850" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div>
+        <p class="p-1"> Te mostramos </p>
+        <p class="p-2"> como llegar a nuestro local</p>
+      </div>
+    </section>
+    <!-- Fin de seecion tres-->
     <!-- Footer -->
     <footer class="row menu-container mt-5">
       <div class="col  ">

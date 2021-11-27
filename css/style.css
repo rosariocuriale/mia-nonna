@@ -2,9 +2,15 @@
 /* Variables */
 /* Colores */
 .logo {
-  color: white;
+  color: black;
   font-family: "Birthstone Bounce", cursive;
-  font-size: 60px;
+  font-size: 40px;
+  padding-left: 120px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 0%;
 }
 
 .menu {
@@ -14,9 +20,9 @@
 }
 .menu ul li a {
   margin-left: 60px;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: "Roboto Condensed", sans-serif;
 }
 .menu ul li a:hover {
@@ -84,6 +90,25 @@ footer .footer-icons {
   background-color: lightslategrey;
 }
 
+.encabezado-uno {
+  display: flex;
+  justify-content: center;
+}
+.encabezado-uno h2 {
+  font-size: 130px;
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 300px;
+}
+.encabezado-uno p {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  left: 30%;
+  top: 450px;
+}
+
 .encabezado-dos {
   display: flex;
   justify-content: center;
@@ -93,6 +118,7 @@ footer .footer-icons {
 .encabezado-dos h2 {
   font-size: 100px;
   font-family: "Cormorant Garamond", serif;
+  color: rgba(196, 52, 0, 0.664);
 }
 .encabezado-dos p {
   font-size: 100px;
@@ -100,14 +126,15 @@ footer .footer-icons {
   position: relative;
   top: 50px;
   left: -400px;
+  color: #7c7477;
 }
 
 section .grid-container {
   display: flex;
   justify-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 450px);
-  grid-template-rows: repeat(3, 450px);
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(2, 750px);
   overflow: hidden;
 }
 section .grid-container div {
@@ -115,26 +142,47 @@ section .grid-container div {
 }
 section .grid-container .grid-item {
   position: relative;
+  background-color: #7c747788;
 }
 section .grid-container .grid-item .grid-img {
   height: 100%;
+  width: 100%;
 }
 section .grid-container .grid-item .grid-title {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  color: black;
+  top: 50px;
+  left: 10px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+.seccion-tres {
+  background-color: #726560;
+}
+.seccion-tres iframe {
+  margin-top: 10px;
+}
+.seccion-tres .p-1 {
+  font-size: 60px;
   font-family: "Cormorant Garamond", serif;
-  font-size: 50px;
+  color: #fd703d;
+  position: relative;
+  top: -400px;
+  left: 65%;
+}
+.seccion-tres .p-2 {
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  position: relative;
+  top: -477px;
+  left: 900px;
+  color: white;
 }
 
 * {
   margin: 0%;
   padding: 0%;
-}
-
-body {
-  background-color: #bbbbbb;
 }
 
 /*# sourceMappingURL=style.css.map */
