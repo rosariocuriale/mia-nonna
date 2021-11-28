@@ -54,6 +54,10 @@ footer .footer-icons li {
 footer .footer-icons img {
   width: 40px;
 }
+footer .footer-icons img:hover {
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
 
 /* extend */
 footer .footer-icons {
@@ -61,32 +65,6 @@ footer .footer-icons {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-}
-
-.title-comple {
-  padding: 200px;
-  background-color: olivedrab;
-  display: flex;
-  justify-content: center;
-  font-size: 100px;
-  font-family: "Cormorant Garamond", serif;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  overflow: hidden;
-}
-.grid .grid-item-one {
-  display: flex;
-  justify-content: start;
-}
-.grid .grid-item-two {
-  display: flex;
-  justify-content: end;
-}
-.grid .grid-title-one {
-  background-color: lightslategrey;
 }
 
 .encabezado-uno {
@@ -204,6 +182,70 @@ section .grid-container .grid-title-3 {
   top: -477px;
   left: 900px;
   color: white;
+}
+
+.body-especialidades {
+  background-color: #f1e7ea;
+}
+
+.seccion-uno-especialidades {
+  background-color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+.seccion-uno-especialidades h2 {
+  font-size: 100px;
+  font-family: "Cormorant Garamond", serif;
+  color: rgba(196, 52, 0, 0.664);
+}
+.seccion-uno-especialidades p {
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  position: relative;
+  top: -80px;
+  color: #7c7477;
+}
+
+.grid-container-especialidades {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 270px);
+}
+.grid-container-especialidades .grid-title-especialidad {
+  background-color: white;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.grid-container-especialidades .grid-title-especialidad h2 {
+  margin-top: 40px;
+  color: #3f3835;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container-especialidades .grid-title-especialidad p {
+  color: rgba(114, 101, 96, 0.842);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-container-especialidades .grid-img-especialidades {
+  overflow: hidden;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  background-color: #c7c7c7;
+  padding-top: 150px;
+}
+section .seccion-uno-contacto p {
+  font-size: 100px;
+  font-family: "Bebas Neue", cursive;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  color: #7c7477;
 }
 
 * {
