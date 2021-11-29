@@ -3,21 +3,25 @@
 @import "../componentes/listas";
 
 footer{
-    background-color: rgb(114, 101, 96);
-    .logo-mia-nona{
-        width: $width-logo;
+    background-color: rgba(114, 101, 96, 0.842);
+    padding-bottom: 50px;
+    div{
+        display: flex;
+        justify-content: center;
     }
-    .footer-icons{
-        @extend %flex;
-        li{
-            padding-left:30px;
-            margin-top: 70px;
-        }
-        img{
-            width: $width-icons-footer;
+    .footer-iconos{
+        display: flex;
+        justify-content: space-around;
+        .img-1{
             &:hover{
-                border-radius: 10px;
-                box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+                border-radius: 30%;
+                box-shadow: 2px 2px 4px 4px rgb(90, 80, 76);
+            }
+        }
+        .img-2{
+            &:hover{
+                border-radius: 50%;
+                box-shadow: 2px 2px 4px 4px rgb(90, 80, 76);
             }
         }
     }

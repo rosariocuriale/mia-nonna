@@ -1,9 +1,9 @@
 .body-especialidades{
-    background-color: #f1e7ea;
+    background-color: white;
 }
 
 .seccion-uno-especialidades{
-    background-color: white;
+    
     text-align: center;
     padding-top: 150px;
     h2{
@@ -22,11 +22,11 @@
 }
 
 .grid-container-especialidades{
-    display: flex;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: repeat(2, 270px);
+    padding-top: 0%;
     .grid-title-especialidad{
         background-color: white;
         box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
