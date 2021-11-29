@@ -5,13 +5,13 @@
         font-size: 130px;
         color:white;
         position:absolute;
-        left: 40%; top: 300px;
+        top: 300px;
     }
     p{
         font-size: 40px;
         color: white;
         position: absolute;
-        left: 30%; top: 450px;
+        top: 450px;
     }
 }
 
@@ -19,35 +19,31 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 455px;
-    
     h2{
         font-size: 100px;
         font-family: 'Cormorant Garamond', serif;
         color: rgba(196, 52, 0, 0.664);
+        position: relative;
+        left: 300px;
     }
     p{
         font-size: 100px;
         font-family: 'Bebas Neue', cursive;
         position: relative;
-        top: 50px; left: -400px;
+        top: 50px; left: -200px;
         color: #7c7477;
     }
 }
 
 section{
     .grid-container{
-        display: flex;
+        display:flex;
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(2, 600px);
         grid-template-rows: repeat(2, 750px);
-        overflow: hidden;
-        
-
         div{
             overflow: hidden;
-            
         }
         .grid-item{
             position: relative;
@@ -68,7 +64,6 @@ section{
         }
         .grid-title-1{
             padding-left: 90px;
-            margin: 0%;
             h4{
                 color:rgb(114, 101, 96); 
                 font-family: 'Bebas Neue', cursive;
@@ -97,8 +92,11 @@ section{
 
 .seccion-tres{
     background-color: rgb(114, 101, 96);
+    
     iframe{
+        width: 650px;
         margin-top: 50px;
+        margin-left: 20px;
         box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
     }
     .p-1{
@@ -106,13 +104,16 @@ section{
         font-family: 'Cormorant Garamond', serif;
         color: rgb(253, 112, 61);
         position: relative;
-        top: -400px; left: 65%;
+        top: -400px; left: -200px;
+        text-align: end;
     }
     .p-2{
         font-size: 60px;
         font-family: 'Bebas Neue', cursive;
         position: relative;
-        top: -477px; left: 900px;
         color: white;
+        position: relative;
+        top: -475px; left: -50px;
+        text-align: end;
     }
 }

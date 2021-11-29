@@ -10,7 +10,6 @@
 
 .navbar {
   background-color: white;
-  padding: 0%;
 }
 
 .menu {
@@ -64,14 +63,12 @@ footer .footer-iconos .img-2:hover {
   font-size: 130px;
   color: white;
   position: absolute;
-  left: 40%;
   top: 300px;
 }
 .encabezado-uno p {
   font-size: 40px;
   color: white;
   position: absolute;
-  left: 30%;
   top: 450px;
 }
 
@@ -79,19 +76,20 @@ footer .footer-iconos .img-2:hover {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 455px;
 }
 .encabezado-dos h2 {
   font-size: 100px;
   font-family: "Cormorant Garamond", serif;
   color: rgba(196, 52, 0, 0.664);
+  position: relative;
+  left: 300px;
 }
 .encabezado-dos p {
   font-size: 100px;
   font-family: "Bebas Neue", cursive;
   position: relative;
   top: 50px;
-  left: -400px;
+  left: -200px;
   color: #7c7477;
 }
 
@@ -101,7 +99,6 @@ section .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 600px);
   grid-template-rows: repeat(2, 750px);
-  overflow: hidden;
 }
 section .grid-container div {
   overflow: hidden;
@@ -125,7 +122,6 @@ section .grid-container .grid-item .grid-title {
 }
 section .grid-container .grid-title-1 {
   padding-left: 90px;
-  margin: 0%;
 }
 section .grid-container .grid-title-1 h4 {
   color: #726560;
@@ -153,7 +149,9 @@ section .grid-container .grid-title-3 {
   background-color: #726560;
 }
 .seccion-tres iframe {
+  width: 650px;
   margin-top: 50px;
+  margin-left: 20px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 .seccion-tres .p-1 {
@@ -162,31 +160,37 @@ section .grid-container .grid-title-3 {
   color: #fd703d;
   position: relative;
   top: -400px;
-  left: 65%;
+  left: -200px;
+  text-align: end;
 }
 .seccion-tres .p-2 {
   font-size: 60px;
   font-family: "Bebas Neue", cursive;
   position: relative;
-  top: -477px;
-  left: 900px;
   color: white;
+  position: relative;
+  top: -475px;
+  left: -50px;
+  text-align: end;
 }
 
-.body-especialidades {
+.grid-container-encabezado {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
   background-color: white;
 }
-
-.seccion-uno-especialidades {
-  text-align: center;
-  padding-top: 150px;
-}
-.seccion-uno-especialidades h2 {
+.grid-container-encabezado .seccion-uno-especialidades h2 {
   font-size: 100px;
   font-family: "Cormorant Garamond", serif;
   color: rgba(196, 52, 0, 0.664);
+  position: relative;
+  left: 75px;
 }
-.seccion-uno-especialidades p {
+.grid-container-encabezado .seccion-uno-especialidades p {
   font-size: 100px;
   font-family: "Bebas Neue", cursive;
   position: relative;
@@ -199,7 +203,6 @@ section .grid-container .grid-title-3 {
   display: grid;
   grid-template-columns: repeat(4, 270px);
   grid-template-rows: repeat(2, 270px);
-  padding-top: 0%;
 }
 .grid-container-especialidades .grid-title-especialidad {
   background-color: white;
@@ -224,9 +227,62 @@ section .grid-container .grid-title-3 {
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+.encabezado-uno-especialidades {
+  padding-top: 50px;
+  text-align: center;
+}
+.encabezado-uno-especialidades h2 {
+  font-size: 150px;
+  font-family: "Bebas Neue", cursive;
+  color: #666062;
+}
+.encabezado-uno-especialidades h2 p {
+  font-size: 150px;
+  font-family: "Cormorant Garamond", serif;
+  color: #c43400;
+  position: relative;
+  top: -170px;
+  margin-bottom: 0%;
+}
+
+.container-seccion-tres {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: -100px;
+}
+.container-seccion-tres .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.container-seccion-tres .card:hover {
+  transform: translateX(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container-seccion-tres .card img {
+  width: 330px;
+  height: 220px;
+}
+.container-seccion-tres .card h4 {
+  font-weight: 600;
+}
+.container-seccion-tres .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 section {
   background-color: #c7c7c7;
-  padding-top: 150px;
 }
 section .seccion-uno-contacto p {
   font-size: 100px;

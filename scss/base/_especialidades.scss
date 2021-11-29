@@ -1,24 +1,30 @@
-.body-especialidades{
-    background-color: white;
-}
-
-.seccion-uno-especialidades{
-    
-    text-align: center;
+.grid-container-encabezado{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px;
+    display: flex;
+    justify-content: center;
     padding-top: 150px;
-    h2{
-        font-size: 100px;
-        font-family: 'Cormorant Garamond', serif;
-        color: rgba(196, 52, 0, 0.664);
-
+    background-color: rgb(255, 255, 255);
+    .seccion-uno-especialidades{
+        
+        h2{
+            font-size: 100px;
+            font-family: 'Cormorant Garamond', serif;
+            color: rgba(196, 52, 0, 0.664);
+            position: relative;
+            left: 75px;
+        }
+        
+        p{
+            font-size: 100px;
+            font-family: 'Bebas Neue', cursive;
+            position: relative;
+            top: -80px;
+            color: #7c7477;
+        }
     }
-    p{
-        font-size: 100px;
-        font-family: 'Bebas Neue', cursive;
-        position: relative;
-        top: -80px;
-        color: #7c7477;
-    }
+    
 }
 
 .grid-container-especialidades{
@@ -26,7 +32,6 @@
     display: grid;
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: repeat(2, 270px);
-    padding-top: 0%;
     .grid-title-especialidad{
         background-color: white;
         box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
@@ -48,5 +53,61 @@
     .grid-img-especialidades{
         overflow: hidden;
         box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.encabezado-uno-especialidades{
+    padding-top: 50px;
+    text-align: center;
+    h2{
+        font-size: 150px;
+        font-family: 'Bebas Neue', cursive;
+        color: #666062;
+        p{
+            font-size: 150px;
+            font-family: 'Cormorant Garamond', serif;
+            color: rgb(196, 52, 0);
+            position: relative;
+            top: -170px;
+            margin-bottom: 0%;
+        }
+    }
+    
+}
+
+.container-seccion-tres{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    .card{
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        &:hover{
+            transform: translateX(-15px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+        }
+        img{
+            width: 330px;
+            height: 220px;
+        }
+        h4{
+            font-weight: 600;
+        }
+        p{
+            padding: 0 1rem;
+            font-size: 16px;
+            font-weight: 300;
+        }
     }
 }

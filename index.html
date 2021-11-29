@@ -11,10 +11,10 @@
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title> Mia Nonna | Comidas Caseras - Home </title>
 </head>
-<body>
+<body class="body-especialidades">
     <!-- Menu -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top header">
         <div class="container-fluid">
@@ -43,55 +43,56 @@
     <!-- Fin menu -->
     <!-- seccion uno -->
     <section>
-      <!-- carrusel -->
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="src/multimedia/imagenes/pizza-carrusel-.jpg" class="d-block w-100" alt="fondo comidas caseras">
-              <div class="carousel-caption d-none d-md-block">
+        <!-- carrusel -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="src/multimedia/imagenes/pizza-carrusel-.jpg" class="d-block w-100" alt="fondo comidas caseras">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                 <img src="src/multimedia/imagenes/burger-carrusel.jpg" class="d-block w-100" alt="fondo comidas caseras">
+                 <div class="carousel-caption d-none d-md-block">
+                 </div>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-               <img src="src/multimedia/imagenes/burger-carrusel.jpg" class="d-block w-100" alt="fondo comidas caseras">
-               <div class="carousel-caption d-none d-md-block">
-               </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-      </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
       <!-- Fin carrusel -->
-    </section>
-    <!-- Fin de seccion uno -->
-    <!-- Encabezado uno -->
+        <!-- Encabezado uno -->
     <div class="encabezado-uno">
       <h2> ¡HOLA! </h2>
       <p> esperamos que disfrutes de la experiencia </p>
     </div>
     <!-- Fin de encabezado uno -->
-    <!-- Encabezado dos -->
-    <div class="encabezado-dos">
-      <h2 id="sobre-nosotros"> Te contamos </h2>
-      <p> Sobre Nosotros </p>
-    </div>
-    <!-- Fin de encabezado dos -->
-    <!-- Seccion dos-->
+      <!-- Encabezado dos-->        
+    </section>
+      <div class="encabezado-dos">
+        <h2 id="sobre-nosotros"> Te contamos </h2>
+        <p> Sobre Nosotros </p>
+      </div>
+      <!-- Fin de encabezado dos -->
+      <!-- Seccion dos-->
     <section>
       <div class="grid-container">
         <div class="grid-item"> 
           <img class="grid-img" src="src/multimedia/imagenes/fondo-grid-1.jpg" alt="">
-          <p class="grid-title"> Somos una rotiseria donde podes encontrar todo tipo de comidas rapidas, pero con el toque perfecto de sabor a las comidas de la nona </p>
+          <div class="grid-title"><p>somos Mia Nonna una</p></div>
+          <div class="grid-title-1"><h4>ROTICERIA</h4></div>
+          <div class="grid-title-2"><p>en la cual te ofrecemos distintas delicias con ese sabor casero a la cocina de la nona.</p></div>
         </div>
         <div>
           <img class="grid-img" src="src/multimedia/imagenes/burger-carrusel.jpg" alt="pizza" height="750px">
@@ -117,22 +118,20 @@
         <p class="p-1"> Te mostramos </p>
         <p class="p-2"> como llegar a nuestro local</p>
       </div>
-      
-        
-      </div>
     </section>
     <!-- Fin de seecion tres-->
-     <!-- Fotter -->
-     <footer>
+    <!-- Fotter -->
+    <footer>
       <div >
-        <img class="logo-footer" src="src/multimedia/imagenes/Mia Nonna.png" alt="" width="300px">
+          <img class="logo-footer" src="src/multimedia/imagenes/Mia Nonna.png" alt="" width="300px">
       </div>
       <div class="footer-iconos">
-          <a href=""><img class="img-1" src="src/multimedia/imagenes/instagram_social_media_communication_interaction_social_network_icon_196626.png" alt="" width="40px"></a>
-          <a href=""><img class="img-2" src="src/multimedia/imagenes/facebook_social_network_interaction_communication_social_media_icon_196651.png" alt="" width="40px"></a>
+        <a href=""><img class="img-1" src="src/multimedia/imagenes/instagram_social_media_communication_interaction_social_network_icon_196626.png" alt="" width="40px"></a>
+        <a href=""><img class="img-2" src="src/multimedia/imagenes/facebook_social_network_interaction_communication_social_media_icon_196651.png" alt="" width="40px"></a>
       </div>
   </footer>
   <!-- Fin de fotter -->
+
     <!-- Complementos de JavaScript y Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
