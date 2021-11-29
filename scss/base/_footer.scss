@@ -3,8 +3,7 @@
 @import "../componentes/listas";
 
 footer{
-    background-color:nth($colores, 1);
-    display: inline;
+    background-color: rgb(114, 101, 96);
     .logo-mia-nona{
         width: $width-logo;
     }

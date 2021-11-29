@@ -43,26 +43,53 @@ section{
         grid-template-columns: repeat(2, 600px);
         grid-template-rows: repeat(2, 750px);
         overflow: hidden;
+        
 
         div{
             overflow: hidden;
+            
         }
         .grid-item{
             position: relative;
-            background-color: #7c747788;
+            background-color: #e0dadc;
+            box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
             .grid-img{
                 height: 100%; 
                 width: 100%;
             }
             .grid-title{
-                position: absolute;
-                top: 50px;
-                left: 10px;
-                color:white; 
-                font-family: 'Bebas Neue', cursive;
+                display:flex;
+                padding-left: 90px; 
+                padding-top: 90px;
+                color:rgb(253, 112, 61); 
+                font-family: 'Cormorant Garamond', serif;
                 font-size: 40px;
-                
             }
+        }
+        .grid-title-1{
+            padding-left: 90px;
+            margin: 0%;
+            h4{
+                color:rgb(114, 101, 96); 
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: 3px;
+                font-size: 100px;
+            }        
+        }
+        .grid-title-2{
+            display:flex;
+                padding: 40px 40px 60px 90px;
+                color:rgb(114, 101, 96); 
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 30px;
+        }
+        .grid-title-3{
+            display:flex;
+            padding-left: 90px; 
+            padding-top: 90px;
+            color:rgba(114, 101, 96, 0.842); 
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 30px;
         }
          
     }
@@ -71,7 +98,8 @@ section{
 .seccion-tres{
     background-color: rgb(114, 101, 96);
     iframe{
-        margin-top: 10px;
+        margin-top: 50px;
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
     }
     .p-1{
         font-size: 60px;
