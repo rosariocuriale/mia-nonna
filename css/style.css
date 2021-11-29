@@ -144,6 +144,10 @@ section .grid-container .grid-title-3 {
   font-family: "Cormorant Garamond", serif;
   font-size: 30px;
 }
+section .grid-container .grid-title-3 a {
+  text-decoration: none;
+  color: rgba(114, 101, 96, 0.842);
+}
 
 .seccion-tres {
   background-color: #726560;
@@ -281,37 +285,49 @@ section .grid-container .grid-title-3 {
   font-weight: 300;
 }
 
-section {
-  background-color: #c7c7c7;
+.grid-container-contacto {
+  padding-top: 50px;
+  display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: repeat(2, 50%);
 }
-section .seccion-uno-contacto p {
-  font-size: 100px;
-  font-family: "Bebas Neue", cursive;
-  padding-left: 100px;
-  padding-bottom: 100px;
-  color: #7c7477;
+.grid-container-contacto .grid-item-contacto {
+  overflow: hidden;
 }
-
-.boton {
-  display: inline-flex;
-  justify-content: center;
-  height: 50px;
-  width: 350px;
+.grid-container-contacto .grid-item-contacto h2 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+  color: #c43400;
+}
+.grid-container-contacto .grid-item-contacto h4 {
+  text-align: center;
   font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  color: #666062;
+}
+.grid-container-contacto .grid-item-contacto p {
+  text-align: center;
+  color: rgba(114, 101, 96, 0.842);
   font-family: "Roboto Condensed", sans-serif;
-  background-color: green;
-  border-radius: 30px;
-  transition: 0.3s ease all;
-  position: relative;
-  top: -215px;
-  left: 750px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.boton:hover {
-  background-color: #003b00;
+.grid-container-contacto .grid-item-contacto .footer-iconos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-.boton a {
-  text-decoration: none;
-  color: white;
+.grid-container-contacto .grid-item-contacto .footer-iconos .img-1:hover {
+  border-radius: 30%;
+  box-shadow: 2px 2px 4px 2px rgba(196, 52, 0, 0.548);
+}
+.grid-container-contacto .grid-item-contacto .footer-iconos .img-2:hover {
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 2px rgba(196, 52, 0, 0.548);
 }
 
 * {
