@@ -37,13 +37,15 @@ footer {
   background-color: rgba(114, 101, 96, 0.842);
   padding-bottom: 50px;
 }
-footer div {
-  display: flex;
-  justify-content: center;
+footer div ul {
+  list-style-type: none;
 }
-footer .footer-iconos {
-  display: flex;
-  justify-content: space-around;
+footer div li, footer div a {
+  text-decoration: none;
+  color: white;
+}
+footer div li:hover, footer div a:hover {
+  color: yellowgreen;
 }
 footer .footer-iconos .img-1:hover {
   border-radius: 30%;
@@ -55,6 +57,12 @@ footer .footer-iconos .img-2:hover {
 }
 
 /* extend */
+.body-especialidades {
+  background: url("../../src/multimedia/imagenes/burger-carrusel.jpg");
+  background: no-repeat;
+  width: 100%;
+}
+
 .encabezado-uno {
   display: flex;
   justify-content: center;
@@ -103,14 +111,16 @@ section .grid-container {
 section .grid-container div {
   overflow: hidden;
 }
+section .grid-container .grid-img {
+  transition: 2s;
+}
+section .grid-container .grid-img:hover {
+  transform: translateX(-30%);
+}
 section .grid-container .grid-item {
   position: relative;
   background-color: #e0dadc;
   box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
-}
-section .grid-container .grid-item .grid-img {
-  height: 100%;
-  width: 100%;
 }
 section .grid-container .grid-item .grid-title {
   display: flex;
@@ -147,6 +157,9 @@ section .grid-container .grid-title-3 {
 section .grid-container .grid-title-3 a {
   text-decoration: none;
   color: rgba(114, 101, 96, 0.842);
+}
+section .grid-container .grid-title-3 p:hover {
+  color: #fd703d;
 }
 
 .seccion-tres {

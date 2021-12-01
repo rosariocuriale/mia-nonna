@@ -5,13 +5,24 @@
 footer{
     background-color: rgba(114, 101, 96, 0.842);
     padding-bottom: 50px;
+    
     div{
-        display: flex;
-        justify-content: center;
+        
+        ul{
+            list-style-type: none;
+        }
+        li, a{
+            
+            text-decoration: none;
+            color: white;
+            
+            &:hover{
+                color: yellowgreen;
+            }
+        }
+        
     }
     .footer-iconos{
-        display: flex;
-        justify-content: space-around;
         .img-1{
             &:hover{
                 border-radius: 30%;
@@ -26,3 +37,5 @@ footer{
         }
     }
 }
+
+

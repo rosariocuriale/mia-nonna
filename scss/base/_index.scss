@@ -1,3 +1,8 @@
+.body-especialidades{
+    background: url("../../src/multimedia/imagenes/burger-carrusel.jpg");
+    background: no-repeat;
+    width: 100%;
+}
 .encabezado-uno{
     display: flex;
     justify-content: center;
@@ -45,14 +50,16 @@ section{
         div{
             overflow: hidden;
         }
+        .grid-img{
+            transition: 2s;
+            &:hover{
+                transform: translateX(-30%);
+            }
+        }
         .grid-item{
             position: relative;
             background-color: #e0dadc;
             box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
-            .grid-img{
-                height: 100%; 
-                width: 100%;
-            }
             .grid-title{
                 display:flex;
                 padding-left: 90px; 
@@ -89,6 +96,11 @@ section{
                 text-decoration: none;
                 color: rgba(114, 101, 96, 0.842);
             }
+           p{
+            &:hover{
+                color: rgb(253, 112, 61); ;
+            }
+           }
         }
          
     }
